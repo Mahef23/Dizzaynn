@@ -1,0 +1,67 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(0, 25, 25);
+}
+.favoris{
+    justify-content: space-around;
+    display:flex;
+}
+.favoris2{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.persofav{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.person{
+    margin-left: 15px;
+    display: block;
+    margin: 10px 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+
+}
+.nom{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 60px;
+}
+#Num{
+    display: none;
+
+}
+.persofav:hover{
+    scale:150%;
+    display:blcok;
+}
+#fo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#fo:hover + #Num{
+    scale: 150%;
+    display: block;
+}
+.person:hover{
+    scale:120%;
+}
+.lo{
+    display: flex;
+    align-items: center;
+}
+#Nom{
+    color:aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+}
