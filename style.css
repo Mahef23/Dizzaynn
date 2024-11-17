@@ -41,7 +41,7 @@ body{
 
 }
 .persofav:hover{
-    scale:150%;
+    scale:120%;
     display:blcok;
 }
 #fo{
@@ -64,4 +64,24 @@ body{
     color:aliceblue;
     font-size: 30px;
     text-decoration: none;
+}
+
+.membres{
+    display: flex;
+    justify-content: space-around;
+}
+#ajout button{
+    background-color: rgb(0, 162, 255);
+    border-radius: 8%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding: 5%;
+    margin: 10%;
+    font-size: 30px;
+}
+#ajout button:hover{
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.541);
+}
+#ajout button:active{
+    background-color: rgb(0, 110, 255); 
 }
